@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <link rel="stylesheet" href="styles.css">
+   
+    <title>PU website</title>
+  </head>
+  <body>
+    <style>
+      a {
+   text-decoration: none !important;
+   display: block;
+   width: 100%;
+   height: 100%;
+   color: black;
+}
+.dropdown:hover>.dropdown-menu{
+display: block;
+}
+    </style>
+  
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+   
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            
+          <a class="navbar-brand" href="#"><img src="images/pulogo2.jpg" alt ="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="col-auto">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      ABOUT PU
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="https://puchd.ac.in/chancellor.php" target="_BLANK">Chancellor</a></li>
+                      <li><a class="dropdown-item" href="https://puchd.ac.in/vice-chancellor.php" target="_BLANK">Vice Chancellor</a></li>
+                      <li><a class="dropdown-item" href="https://dui.puchd.ac.in/" target="_BLANK">Dean of University Instruction</a></li>
+                      <li><a class="dropdown-item" href="https://puchd.ac.in/pu-administration.php" target="_BLANK">Administration</a></li>
+                      <li><a class="dropdown-item" href="https://registrar.puchd.ac.in/show-faculty.php" target="_BLANK">Registrar</a></li>
+                      <li><a class="dropdown-item" href="https://cvo.puchd.ac.in/" target="_BLANK">Vigilance Cell</a></li>
+                      <li><a class="dropdown-item" href="https://senatesyndicate.puchd.ac.in/" target="_BLANK">Senate, Syndicate</a></li>
+                      <li><a class="dropdown-item" href="https://puchd.ac.in/pu-administration2.php" target="_BLANK">Deans & Secretaries of Faculties</a></li>
+                      <li><a class="dropdown-item" href="https://puchd.ac.in/pu-profile.php" target="_BLANK">Profile</a></li>
+                      <li><a class="dropdown-item" href="https://oralhistory.puchd.ac.in/" target="_BLANK">PU: Oral History</a></li>
+                      <li><a class="dropdown-item" href="#" target="_BLANK">Calendars/Budget/Documents/Anthem</a></li>
+                      <li><a class="dropdown-item" href="#" target="_BLANK">ARIIA 2020 Report</a></li>
+                      
+                    </ul>
+                  </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     STUDENTS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="https://admissions.puchd.ac.in/" target="_blank">Admissions</a></li>
+                      <li><a class="dropdown-item" href="https://exams.puchd.ac.in/datesheet.php" target="_blank">Examination</a></li>
+                      <li><a class="dropdown-item" href="http://results.puchd.ac.in/" target="_blank">Results</a></li>
+                      <li><a class="dropdown-item" href="https://hostels.puchd.ac.in/" target="_blank">Hostels</a></li>
+                      <li><a class="dropdown-item" href="https://campusstudent.puchd.ac.in/" target="_blank">Campus Students</a></li>
+                      <li><a class="dropdown-item" href="https://cpc.puchd.ac.in/" target="_blank">Central Placement Cell</a></li>
+                      <li><a class="dropdown-item" href="https://payonline.puchd.ac.in/" target="_blank">Pay Free Online</a></li>
+                      <li><a class="dropdown-item" href="https://puchd.ac.in/syllabus.php" target="_blank">Syllabi</a></li>
+                      <li><a class="dropdown-item" href="https://scst.puchd.ac.in/" target="_blank">SC/ST Cell</a></li>
+                      <li><a class="dropdown-item" href="https://eocpwd.puchd.ac.in/" target="_blank">EOC-PWD</a></li>
+                      <li><a class="dropdown-item" href="https://puchd.ac.in/scholarship.php" target="_blank">Scholarships</a></li>
+                      <li><a class="dropdown-item" href="https://dis.puchd.ac.in/" target="_blank">International Students</a></li>
+                      <li><a class="dropdown-item" href="https://puchd.ac.in/researchscholar.php" target="_blank">Research Scholars</a></li>
+                      
+                      
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     ACADEMICS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="https://puchd.ac.in/faculties.php" target="_blank">Departments & Centres</a></li>
+                      <li><a class="dropdown-item" href="https://usol.puchd.ac.in/" target="_blank">University School of Open Learning</a></li>
+                      <li><a class="dropdown-item" href="https://deanresearch.puchd.ac.in/"target="_blank">Dean Research</a></li>
+                      <li><a class="dropdown-item" href="http://puasc.ac.in/"target="_blank">Human Resource Development Centre</a></li>
+                      <li><a class="dropdown-item" href="https://iasc.puchd.ac.in/"target="_blank">IAS & Other Competitive Examinations</a></li>
+                      <li><a class="dropdown-item" href="https://library.puchd.ac.in/"target="_blank">Library</a></li>
+                      <li><a class="dropdown-item" href="https://puchd.ac.in/pu-journals.php"target="_blank">PU Journals</a></li>
+                      <li><a class="dropdown-item" href="https://publicationbureau.puchd.ac.in/"target="_blank">Publication Bureau</a></li>
+                      <li><a class="dropdown-item" href="https://puchd.ac.in/pu-policies.php"target="_blank">PU Policies</a></li>
+                      <li><a class="dropdown-item" href="https://seminar.puchd.ac.in/"target="_blank">Colloquium</a></li>
+                      <li><a class="dropdown-item" href="https://puchd.ac.in/conferences.php"target="_blank">University Conferences</a></li>
+                      <li><a class="dropdown-item" href="https://puchd.ac.in/elearning-platform.php"target="_blank">E-Learning Platforms</a></li>
+                     
+                    </ul>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  COLLEGES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="http://dcdc.puchd.ac.in/" target="_blank">Dean colleges</a></li>
+                  <li><a class="dropdown-item" href="https://puchd.ac.in/faculties.php#ConstituentCollege" target="_blank">Constituent Colleges</a></li>
+                  
+                </ul>
+              </li>
+             
+            </ul>
+            
+          </div>
+        </div>
+        </div>
+      </nav>
+      <div class="container">
+      <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="https://pumail.puchd.ac.in/"> PU Mail </a></li>
+          <li class="breadcrumb-item"><a href="https://puchd.ac.in/contactus.php">Contact PU</a></li>
+          <li class="breadcrumb-item"><a href="https://news.puchd.ac.in/">News </a></li>
+        </ol>
+      </nav>
+    </div>
+      
+  <div class="container" style="padding-left: 100px; padding-right: 100px;">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img height="400" src="images/pu2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img height="400" src="images/pu3.PNG" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img height="400" src="images/pu5.PNG" class="d-block w-100" alt="...">
+          </div>
+          
+         
+          <div class="carousel-item">
+            <img height="400" src="images/pu9.PNG" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img height="400" src="images/pu8.PNG" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="container my-4">
+
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">Quick Facts</strong>
+              <br>
+              <ul>
+                <li>Established in 1882 as University of Punjab at Lahore (now in Pakistan).</li>
+                <li>2nd Rank in the Atal Ranking of Institutions on Innovation Achievements (ARIIA) amongst Indian Universities declared by Ministry of Education, Govt. of India in 2020</li>
+              
+                
+              
+              <li>University has 78 teaching and research departments and 15 Centers/Chairs for teaching and research at the main campus located at Chandigarh.</li>
+            <li>University has 188 affiliated colleges spread over Punjab and having one rural Regional Centre at Kauni, and 3 Regional Centres at Muktsar, Ludhiana and Hoshiarpur.</li>
+            </ul>
+
+            
+             
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              
+    
+            </div>
+          </div>
+        </div>
+        
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary">ALERT!!!</strong>
+                <br>
+                <ul>
+                  <li>Panjab University (Established in 1882) is a Central and State Governments Funded University located in Chandigarh.</li>
+                  <li>Panjab University is not related at all to Chandigarh University which is a private university and located in Distt Mohali, Punjab about 25 Kms from Chandigarh.</li>
+                  <li>No official of Panjab University or Admission Cell is giving any call to the prospective candidate for seeking admission to PU or for submitting admission fee etc.</li>
+                 <li>For admission to PU, kindly visit only the official webpage of PU</li>
+                </ul>
+                
+               
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                
+      
+              </div>
+            </div>
+          </div>
+    </div>
+    
+  </div>
+  <div class="container">
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">Mission of the University </h2>
+      <p class="lead">"The University has been incorporated for the purpose, among others, of making provision for imparting education in Arts, Letters, Science and the learned professions and of furthering advancement of learning, the prosecution of original research, with power to appoint University Professors, Readers and Lecturers, to hold and manage educational endowments, to erect, equip and maintain University colleges, libraries, laboratories and museums, to making regulations relating to the residence and conduct of students and to do all such acts as tend to promote study and research".</p>
+    <a href="https://puchd.ac.in/pu-profile.php">  PU Profile...</a>
+    </a>
+    </div>
+    <div class="col-md-5">
+      <img width="300px" height="221px" src="images/mission.PNG">
+       <h6>Stamp issued on 19 May 1989</h6>
+
+    </div>
+  </div>
+  
+  </div>
+  <!-- Footer -->
+  <div class="container">
+    <br>
+    <br>
+    <hr>
+    <br>
+    
+    
+    <!-- Footer -->
+<footer class="page-footer font-small indigo">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+    <h3>PU Quick Links</h3>
+    <br>
+    <br>
+    <br>
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+      
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://puchd.ac.in/anti-ragging.php">Anti-Ragging</a>
+          </li>
+          <li>
+            <a href="https://alumni.puchd.ac.in/">PU Alumni
+          </li>
+          <li>
+            <a href="http://webcast.pu.ac.in/">Webcast/Videos</a>
+          </li>
+          <li>
+            <a href="https://puchd.ac.in/events.php">University Events</a>
+          </li>
+          <li>
+            <a href="https://iec.puchd.ac.in/">PUIEC</a>
+          </li>
+          <li>
+            <a href="https://puchd.ac.in/grievance-redressal-cell.php">Grievance Redressal Cell</a>
+          </li>
+
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+       
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://iqac.puchd.ac.in/">IQQAC/NAAC</a>
+          </li>
+          <li>
+            <a href="https://iqac.puchd.ac.in/nirf.php">NIRF</a>
+          </li>
+          <li>
+            
+            <a href="https://puchd.ac.in/pucash.php?x">Panjab University Committee Against Sexual Harassment (PUCASH)</a>
+          </li>
+          <li>
+            <a href="https://swachhbharatabhiyan.puchd.ac.in/">Swachh Bharat Abhiyan</a>
+          </li>
+          <li>
+            <a href="https://crikc.puchd.ac.in/">Cluster:CRIKC</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://directory.puchd.ac.in/">Telephone Directory</a>
+          </li>
+          <li>
+            <a href="https://forms.puchd.ac.in/">University Forms</a>
+          </li>
+          <li>
+            <a href="https://jobs.puchd.ac.in/list-jobs.php">University Jobs</a>
+          </li>
+          <li>
+            <a href="https://rti.puchd.ac.in/">Right to Information </a>
+          </li>
+          <li>
+            
+            <a style="text-align: center;" href="https://puchd.ac.in/caste-based-discrimination.php">Register Complains:Caste-based Discrimination</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+       
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://tenders.puchd.ac.in/">Tenders</a>
+          </li>
+          <li>
+            <a href="http://punet.puchd.ac.in/">PUNET[INTRANET]</a>
+          </li>
+          <li>
+            <a href="http://mail6.pu.ac.in/">Mail@Campus[INTRANET]</a>
+          </li>
+          <li>
+            <a href="http://campus.pu.ac.in/">Campus Portal</a>
+          </li>
+          <li>
+            <a href="https://gallery.puchd.ac.in/">Photo Gallery</a>
+          </li>
+          <li>
+            <a href="https://puchd.ac.in/sitemap.php">PU SiteMap</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 my-4" style = "background-color: PapayaWhip">
+
+  <p>Enquiry No(s): 1800-180-2065, +91 172 2534818, 2534866 (from 9:30 am to 1:00 pm & 2:30 pm to 5:00 pm on working days )</p>
+   <p>© 1997- 2021 - Panjab University, Chandigarh, India.<br> Developed by: <a style ="display: inline;" href ="https://cc.puchd.ac.in/ " target="_blank">Computer Centre, Panjab University </a> | <a style ="display: inline;" href ="https://puchd.ac.in/show-disclaimer.php" target="_blank"> Disclaimer</a></p>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+
+</div>
+<!-- Footer -->
+  <!-- Copyright -->
+
+
+<!-- Footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  
+  </body>
+</html>
